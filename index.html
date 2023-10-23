@@ -45,12 +45,14 @@
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
   </tr>
-</table>
+<table>
 
-<h2 hidden>Game over</h2>
+<h2 hidden>Game over, refresh to play again 🧑‍💻 🤖!</h2>
 
 <script>
-  // Initialization
+  // Creating the table
+  //Adding Headers
+  //Tic Tac Toe
   const boxes = Array.from(document.querySelectorAll("td"));
   const inputs = Array.from(document.querySelectorAll("[type=checkbox]"));
   const rows = [1, 2, 3].map((n) =>
